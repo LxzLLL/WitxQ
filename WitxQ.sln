@@ -27,8 +27,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Interface.Loopring", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Interface.Strategy", "WitxQ.Interface.Strategy\WitxQ.Interface.Strategy.csproj", "{1764E48E-0110-42C0-B014-E045CB93616E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{ABF78C69-CC73-49F5-80CA-91119176FD5C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,10 +69,6 @@ Global
 		{1764E48E-0110-42C0-B014-E045CB93616E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1764E48E-0110-42C0-B014-E045CB93616E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1764E48E-0110-42C0-B014-E045CB93616E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

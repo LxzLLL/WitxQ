@@ -401,3 +401,4 @@ FodyWeavers.xsd
 */GPUCache
 */appsettings.json
 */hostsettings.json
+./test
