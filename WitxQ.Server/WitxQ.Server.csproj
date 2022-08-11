@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>dotnet-WitxQ.Server-B81A3CE1-2B40-4E41-B996-BABCC01D5FC7</UserSecretsId>
+    <CefSharpAnyCpuSupport>true</CefSharpAnyCpuSupport>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GPUCache\**" />
+    <Compile Remove="Logs\**" />
+    <Content Remove="GPUCache\**" />
+    <Content Remove="Logs\**" />
+    <EmbeddedResource Remove="GPUCache\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <None Remove="GPUCache\**" />
+    <None Remove="Logs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CefSharp.OffScreen" Version="81.3.100" />
+    <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WitxQ.Common\WitxQ.Common.csproj" />
+    <ProjectReference Include="..\WitxQ.Exchange.Loopring\WitxQ.Exchange.Loopring.csproj" />
+    <ProjectReference Include="..\WitxQ.Interface.Loopring\WitxQ.Interface.Loopring.csproj" />
+    <ProjectReference Include="..\WitxQ.Interface.Spot\WitxQ.Interface.Spot.csproj" />
+    <ProjectReference Include="..\WitxQ.Interface.StrategyTA\WitxQ.Interface.StrategyTA.csproj" />
+    <ProjectReference Include="..\WitxQ.Strategy.TA\WitxQ.Strategy.TA.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Script\main.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Script\site.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+</Project>

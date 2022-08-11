@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Common", "WitxQ.Common\WitxQ.Common.csproj", "{909B7AA1-58B2-4264-9CDE-85B81ABB3E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WitxQ.Exchange", "WitxQ.Exchange", "{4D378C0E-0191-47CD-8540-5220F3C17E43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WitxQ.Interface", "WitxQ.Interface", "{69F0137B-479C-44B2-8749-DB2A8E9E3C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WitxQ.Strategy", "WitxQ.Strategy", "{9563FCD8-C3E5-4333-9D84-12D090F2E74F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Strategy.TA", "WitxQ.Strategy.TA\WitxQ.Strategy.TA.csproj", "{4ABB0A39-83ED-4EEB-A9A5-5AAD90206048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Exchange.Loopring", "WitxQ.Exchange.Loopring\WitxQ.Exchange.Loopring.csproj", "{C6C4035E-F8C1-4468-85F6-6D32C0FC3EB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Model", "WitxQ.Model\WitxQ.Model.csproj", "{FE6FB2DE-3BB4-43A3-8944-3EE4E4FDF945}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Interface.Spot", "WitxQ.Interface.Spot\WitxQ.Interface.Spot.csproj", "{8D1B0FF7-9896-4174-96F0-6118494E5C99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Interface.StrategyTA", "WitxQ.Interface.StrategyTA\WitxQ.Interface.StrategyTA.csproj", "{6A1756BB-772C-4ACE-8FC0-2C4941EC2CA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Server", "WitxQ.Server\WitxQ.Server.csproj", "{D916822E-C263-4713-A6BB-28F988FEBA6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Interface.Loopring", "WitxQ.Interface.Loopring\WitxQ.Interface.Loopring.csproj", "{62CF8248-02EE-4041-A8D1-40B58E98E56E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.Interface.Strategy", "WitxQ.Interface.Strategy\WitxQ.Interface.Strategy.csproj", "{1764E48E-0110-42C0-B014-E045CB93616E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{ABF78C69-CC73-49F5-80CA-91119176FD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909B7AA1-58B2-4264-9CDE-85B81ABB3E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909B7AA1-58B2-4264-9CDE-85B81ABB3E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909B7AA1-58B2-4264-9CDE-85B81ABB3E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909B7AA1-58B2-4264-9CDE-85B81ABB3E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABB0A39-83ED-4EEB-A9A5-5AAD90206048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABB0A39-83ED-4EEB-A9A5-5AAD90206048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABB0A39-83ED-4EEB-A9A5-5AAD90206048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABB0A39-83ED-4EEB-A9A5-5AAD90206048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C4035E-F8C1-4468-85F6-6D32C0FC3EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C4035E-F8C1-4468-85F6-6D32C0FC3EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C4035E-F8C1-4468-85F6-6D32C0FC3EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C4035E-F8C1-4468-85F6-6D32C0FC3EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6FB2DE-3BB4-43A3-8944-3EE4E4FDF945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6FB2DE-3BB4-43A3-8944-3EE4E4FDF945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6FB2DE-3BB4-43A3-8944-3EE4E4FDF945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6FB2DE-3BB4-43A3-8944-3EE4E4FDF945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1B0FF7-9896-4174-96F0-6118494E5C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B0FF7-9896-4174-96F0-6118494E5C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B0FF7-9896-4174-96F0-6118494E5C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B0FF7-9896-4174-96F0-6118494E5C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1756BB-772C-4ACE-8FC0-2C4941EC2CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1756BB-772C-4ACE-8FC0-2C4941EC2CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1756BB-772C-4ACE-8FC0-2C4941EC2CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1756BB-772C-4ACE-8FC0-2C4941EC2CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D916822E-C263-4713-A6BB-28F988FEBA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D916822E-C263-4713-A6BB-28F988FEBA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D916822E-C263-4713-A6BB-28F988FEBA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D916822E-C263-4713-A6BB-28F988FEBA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CF8248-02EE-4041-A8D1-40B58E98E56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CF8248-02EE-4041-A8D1-40B58E98E56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CF8248-02EE-4041-A8D1-40B58E98E56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CF8248-02EE-4041-A8D1-40B58E98E56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1764E48E-0110-42C0-B014-E045CB93616E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1764E48E-0110-42C0-B014-E045CB93616E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1764E48E-0110-42C0-B014-E045CB93616E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1764E48E-0110-42C0-B014-E045CB93616E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF78C69-CC73-49F5-80CA-91119176FD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4ABB0A39-83ED-4EEB-A9A5-5AAD90206048} = {9563FCD8-C3E5-4333-9D84-12D090F2E74F}
+		{C6C4035E-F8C1-4468-85F6-6D32C0FC3EB1} = {4D378C0E-0191-47CD-8540-5220F3C17E43}
+		{8D1B0FF7-9896-4174-96F0-6118494E5C99} = {69F0137B-479C-44B2-8749-DB2A8E9E3C8C}
+		{6A1756BB-772C-4ACE-8FC0-2C4941EC2CA0} = {69F0137B-479C-44B2-8749-DB2A8E9E3C8C}
+		{62CF8248-02EE-4041-A8D1-40B58E98E56E} = {69F0137B-479C-44B2-8749-DB2A8E9E3C8C}
+		{1764E48E-0110-42C0-B014-E045CB93616E} = {69F0137B-479C-44B2-8749-DB2A8E9E3C8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF87ADB3-D6EA-4523-B2F3-EB9C571949A4}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN2019 - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WitxQ.Interface.Spot\WitxQ.Interface.Spot.csproj" />
+    <ProjectReference Include="..\WitxQ.Interface.Strategy\WitxQ.Interface.Strategy.csproj" />
+    <ProjectReference Include="..\WitxQ.Model\WitxQ.Model.csproj" />
+  </ItemGroup>
+
+</Project>
