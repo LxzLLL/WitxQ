@@ -9,16 +9,14 @@ namespace WitxQ.EventBus
     /// <summary>
     /// IEventHandler事件处理程序接口
     /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public interface IEventHandler<in TIntegrationEvent> :IHander
-        where TIntegrationEvent:IntegrationEvent
+    public interface IEventHandler:IHander
     {
         /// <summary>
         /// 异步回调task
         /// </summary>
         /// <param name="eventData">事件所需数据</param>
         /// <returns></returns>
-        Task InvokeAsync(TIntegrationEvent @event);
+        Task InvokeAsync<T>(T @event);
     }
 
     /// <summary>

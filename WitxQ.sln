@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.EventBus", "WitxQ.Eve
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WitxQ.EventBus", "WitxQ.EventBus", "{6E812955-A9E2-439B-A346-DF472743E49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WitxQ.RabbitMQ", "WitxQ.RabbitMQ\WitxQ.RabbitMQ.csproj", "{BD970A7F-1AE8-4EB2-8AD8-C08BC42B7F74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WitxQ.EventBus.RabbitMQ", "WitxQ.RabbitMQ\WitxQ.EventBus.RabbitMQ.csproj", "{BD970A7F-1AE8-4EB2-8AD8-C08BC42B7F74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -17,10 +17,10 @@ namespace WitxQ.EventBus
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="TH"></typeparam>
         /// <param name="event">事件</param>
-        /// <param name="hander">事件的处理程序</param>
-        void Subscribe<T, TH>(T @event, TH hander)
+        /// <param name="handler">事件的处理程序</param>
+        void Subscribe<T, TH>(T @event, TH handler)
             where T:IntegrationEvent
-            where TH:IEventHandler<T>;
+            where TH:IEventHandler;
 
         /// <summary>
         /// 取消订阅
@@ -28,10 +28,10 @@ namespace WitxQ.EventBus
         /// <typeparam name="T"></typeparam>
         /// <typeparam name="TH"></typeparam>
         /// <param name="event">事件</param>
-        /// <param name="hander">事件的处理程序</param>
-        void Unsubscribe<T, TH>(T @event, TH hander) 
+        /// <param name="handler">事件的处理程序</param>
+        void Unsubscribe<T, TH>(T @event, TH handler) 
             where T : IntegrationEvent
-            where TH : IEventHandler<T>;
+            where TH : IEventHandler;
 
         /// <summary>
         /// 取消事件的所有订阅
@@ -45,8 +45,8 @@ namespace WitxQ.EventBus
         /// 发布
         /// </summary>
         /// <typeparam name="TEvent"></typeparam>
-        /// <param name="eventData"></param>
+        /// <param name="@event"></param>
         /// <returns></returns>
-        Task PublishAsync<TEvent>(TEvent eventData) where TEvent : IntegrationEvent;
+        Task PublishAsync<TEvent>(TEvent @event) where TEvent : IntegrationEvent;
     }
 }
